@@ -1,3 +1,11 @@
+.contentSection {
+
+    text-align: center;
+    height: 84vh;
+    background-color: antiquewhite;
+
+}
+
 .merchContainer {
 
     display: grid;

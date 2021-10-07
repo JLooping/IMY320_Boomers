@@ -184,6 +184,22 @@ p {
 
 }
 
+@media only screen and (max-width: 1700px) {
+  .next, #next {
+
+    position: relative;
+    color: #0f214b;
+    margin-top: 20px;
+
+  }
+
+  .next:hover, #next:hover {
+
+    color: #e69898;
+
+  }
+}
+
 
 #bubbleBackdrop {
   margin: 0 auto;
@@ -191,3 +207,13 @@ p {
   height:100%;
   z-index: -200;
 }
+
+
+.instaIcon {
+
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+
+}
+

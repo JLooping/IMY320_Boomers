@@ -9,7 +9,7 @@
 
 .iotImage {
 
-    width: 900px;
+    width: 800px;
     height: 500px;
     float: left;
     padding-left: 80px;
@@ -20,14 +20,39 @@
 
     text-align: left;
     padding-top: 5%;
-    padding-left: 65%;
+    padding-left: 55%;
     color: white;
     font-size: 50px;
 
+}
+
+@media only screen and (max-width: 1700px) {
+    .iotDescription {
+
+        text-align: left;
+        padding-top: 0;
+        padding-left: 60%;
+        color: white;
+        font-size: 50px;
+
+    }
 }
 
 .iotList {
 
     font-size: 30px;
 
+}
+
+
+.innerContent p {
+
+    font-size: large;
+
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
 }

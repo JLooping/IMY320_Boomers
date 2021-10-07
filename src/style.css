@@ -85,6 +85,12 @@ p {
 
 }
 
+.navbar .active {
+
+  color: #4064D8;
+
+}
+
 
 .logo img {
 
@@ -164,3 +170,51 @@ p {
 }
 
 
+.next, #next {
+
+  position: relative;
+  color: #0f214b;
+  margin-top: 75px;
+
+}
+
+.next:hover, #next:hover {
+
+  color: #e69898;
+
+}
+
+
+
+.innerContent {
+
+  padding: 5% 0 0 0;
+  text-align: center;
+  alignment: center;
+
+}
+
+.iotImage {
+
+  width: 900px;
+  height: 500px;
+  float: left;
+  padding-left: 80px;
+
+}
+
+.iotDescription {
+
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 65%;
+  color: white;
+  font-size: 50px;
+
+}
+
+.iotList {
+
+  font-size: 30px;
+
+}

@@ -185,39 +185,6 @@ p {
 }
 
 
-
-.innerContent {
-
-  padding: 5% 0 0 0;
-  text-align: center;
-  alignment: center;
-
-}
-
-.iotImage {
-
-  width: 900px;
-  height: 500px;
-  float: left;
-  padding-left: 80px;
-
-}
-
-.iotDescription {
-
-  text-align: left;
-  padding-top: 5%;
-  padding-left: 65%;
-  color: white;
-  font-size: 50px;
-
-}
-
-.iotList {
-
-  font-size: 30px;
-
-}
 #bubbleBackdrop {
   margin: 0 auto;
   width:100%;

@@ -42,8 +42,19 @@
   <script>
 
     $( document ).ready(function() {
+
+
+      fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://jsonkeeper.com/b/A5UL')}`)
+                    .then(response => {
+                      if (response.ok) return response.json()
+                      throw new Error('Network response was not ok.')
+                    })
+                    .then(data => particlesJS.load('bubbleBackdrop',data)
+                    );
+
       // particlesJS.load('bubbleBackdrop','https://cors-anywhere.herokuapp.com/https://jsonkeeper.com/b/A5UL');  
-      particlesJS.load('bubbleBackdrop','https://thingproxy.freeboard.io/fetch/https://jsonkeeper.com/b/A5UL');  
+      particlesJS.load('bubbleBackdrop','https://thingproxy.freeboard.io/fetch/'+encodeURIComponent('https://jsonkeeper.com/b/A5UL'));  
+      // particlesJS.load('bubbleBackdrop','https://cors-anywhere.herokuapp.com/https://jsonkeeper.com/b/A5UL');  
 
 });
 </script>

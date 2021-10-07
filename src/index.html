@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src='https://stark-reef-50136.herokuapp.com/https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="particles.js"></script>
@@ -37,9 +38,11 @@
       </a>
   </div>
 <div class="footer">
+
   <p>Check out our latest update on
+
     <a href="#">
-      <img class="instaIcon" src="img/icon-awesome-instagram-1@1x.png" alt="">
+      <img id="instaIcon"class="instaIcon" src="img/icon-awesome-instagram-1@1x.png" alt="">
     </a>
   </p>
 </div>
@@ -48,17 +51,8 @@
     $( document ).ready(function() {
 
 
-      // fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://jsonkeeper.com/b/A5UL')}`)
-      //               .then(response => {
-      //                 if (response.ok) return response.json()
-      //                 throw new Error('Network response was not ok.')
-      //               })
-      //               .then(data => particlesJS.load('bubbleBackdrop',data)
-      //               );
 
       particlesJS.load('bubbleBackdrop','https://stark-reef-50136.herokuapp.com/https://jsonkeeper.com/b/WEQH');
-      // particlesJS.load('bubbleBackdrop','https://thingproxy.freeboard.io/fetch/'+encodeURIComponent('https://jsonkeeper.com/b/A5UL'));
-      // particlesJS.load('bubbleBackdrop','https://cors-anywhere.herokuapp.com/https://jsonkeeper.com/b/A5UL');
 
 });
 </script>

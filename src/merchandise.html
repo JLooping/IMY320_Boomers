@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/merchContainer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://stark-reef-50136.herokuapp.com/https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="particles.js"></script>
+
 </head>
 <body>
 <div class="nav">
@@ -28,7 +31,9 @@
         </ul>
     </div>
 </div>
-<div class="contentSection">
+<div id="bubbleBackdrop"></div>
+
+<div class="contentSection" style="background-color: transparent;">
     <div class="innerContent">
         <div class="merchContainer">
             <div class="card">
@@ -165,5 +170,15 @@
 <div class="footer">
     <p>Check out our latest update on</p>
 </div>
+<script>
+
+    $( document ).ready(function() {
+  
+  
+  
+        particlesJS.load('bubbleBackdrop','https://stark-reef-50136.herokuapp.com/https://jsonkeeper.com/b/WEQH');
+  
+    });
+  </script>
 </body>
 </html>

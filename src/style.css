@@ -78,6 +78,15 @@ p {
   font-size: 1.1em;
 
 }
+.nav a #logoA{
+
+  text-decoration: none;
+  color: #707070;
+  padding-right: 0em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+
+}
 
 .nav a:hover {
 

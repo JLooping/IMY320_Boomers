@@ -21,6 +21,22 @@ body {
 p {
   margin: 0;
 }
+#intro
+{
+  background-color: transparent;
+  height: 45vh;
+  width: 60vw;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+}
+
+#iImg
+{
+  width: 45vw;
+}
 
 .contentSection {
   top: 50%;
@@ -134,15 +150,15 @@ p {
 .innerContent {
 
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left:70%;
+  transform: translate(-30%, -50%);
   text-align: center;
   /* height: 9vh; */
   background-color: antiquewhite;
   position: absolute;
   /* padding-top: 1%; */
   /* padding-bottom: 2% */
-  border-radius: 10px;
+  border-radius: 50%;
 
 
 }
@@ -150,9 +166,9 @@ p {
 .innerContent button {
 
   padding: 10px;
-  width: 200px;
-  height: 75px;
-  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
   border: 2px solid #468AA8;
 
   color: #468AA8;
@@ -165,9 +181,9 @@ p {
 .innerContent button:hover {
 
   padding: 10px;
-  width: 200px;
-  height: 75px;
-  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
   border: 2px solid #468AA8;
 
   color: white;

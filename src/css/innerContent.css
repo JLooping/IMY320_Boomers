@@ -12,7 +12,8 @@
     width: 800px;
     height: 500px;
     float: left;
-    padding-left: 80px;
+    margin-left: 80px;
+    border-radius: 10px;
 
 }
 
